@@ -17,10 +17,10 @@ The app is published on the App Store by Fred Klassen (the "developer"). It is f
 
 | Data | Purpose | Where it goes |
 |---|---|---|
-| Radio address, name and password | Connect to your K4 | Stored on your device. Sent only to your radio. |
+| Radio address, name and password | Connect to your K4 | Stored in the app's settings on your device. Sent only to your radio. |
 | Operating settings and preferences | Remember your layout, macros and options | Stored on your device only. |
 | Logbook entries | Keep your contact log | Stored on your device only, unless you choose to upload to QRZ (see below). |
-| QRZ.com credentials or API key (optional) | QRZ lookup and logbook upload | Stored in the iOS Keychain on your device. Sent only to QRZ.com. |
+| QRZ.com logbook API key (optional) | Upload your contacts to your QRZ logbook | Stored in the iOS Keychain on your device. Sent only to QRZ.com. |
 | Audio from the microphone | Transmit audio (TX) to your radio | Streamed to your radio while you transmit. Not recorded or kept by the app. |
 
 ## Permissions
@@ -35,7 +35,7 @@ You can change these permissions at any time in iOS Settings.
 
 ## Third-party services
 
-If you enable the optional QRZ.com features, the app sends the callsigns you look up, and the log entries you upload, to QRZ.com using your own QRZ credentials. QRZ.com's own privacy policy applies to that data. The app does not contact any other third-party service.
+If you enable the optional QRZ.com features, the app sends the contacts you choose to upload (or, if you turn on auto-send, new contacts as you log them) to QRZ.com using your own QRZ logbook API key. QRZ.com's own privacy policy applies to that data. The app does not contact any other third-party service.
 
 ## Children
 
@@ -43,7 +43,7 @@ The app is not directed to children and does not knowingly collect data from any
 
 ## Your choices
 
-Because the developer does not receive your data, there is nothing for the developer to access or delete. You can remove all data the app stores on your device by deleting the app. You can remove a saved QRZ key within the app's settings, or by deleting the app.
+Because the developer does not receive your data, there is nothing for the developer to access or delete. You can remove all data the app stores on your device by deleting the app. You can remove a saved QRZ key with "Remove key" in the app's QRZ setup, or by deleting the app.
 
 ## Changes
 
